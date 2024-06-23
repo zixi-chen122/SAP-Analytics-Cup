@@ -1,0 +1,5 @@
+This dataset has been updated on January 8, one day after the start of the analytics cup.
+
+There was an error in the `payments.csv`. The original data was missing 2388 transactions that should have been included, and included 1 transaction that should not have been included.
+
+The `payments.csv`has been corrected. Additionally, to avoid an unfair advantage for those who downloaded the earlier incorrect training data, we have included the file `previously_released_payments.csv` that contains the transaction that had been erroneously released. Please note that the Record_IDs in the updated file do not necessarily match those in the previous version.
